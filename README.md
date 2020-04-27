@@ -10,8 +10,8 @@ grep --color=none -R RETENTION_TIME . | cut -d/ -f2 | sort | uniq -c
 
 There are [30 datasets](datasets_with_retention_time.txt) for which retention time information is available. 
 
-| Number of Spectra | Dataset | 
-| --- | --- |
+| Number of Spectra | Number of Unique Compounds |  Dataset | 
+| --- | --- | --- |
 | 950 | AAFC |
 | 5087 | Athens_Univ |
 | 903 | BGC_Munich |
