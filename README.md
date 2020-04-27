@@ -5,7 +5,7 @@ Extract basic statistics from [MassBank](https://github.com/MassBank/MassBank-da
 ## Retention Time
 
 ```
-grep --color=none -R RETENTION_TIME . | cut -d/ -f2 | sort -u
+grep --color=none -R RETENTION_TIME . | cut -d/ -f2 | sort | uniq -c
 ```
 
 There are [30 datasets](datasets_with_retention_time.txt) for which retention time information is available. 
