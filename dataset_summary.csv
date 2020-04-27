@@ -2,10 +2,10 @@ Dataset,Number of Spectra,Number of Unique Compounds,has INTERNAL_ID
 AAFC,950,149,FALSE
 Athens_Univ,5087,861,TRUE
 BGC_Munich,903,225,TRUE
-BS,1317,,
-CASMI_2012,26,,
-CASMI_2016,622,,
-Chubu_Univ,2185,,
+BS,1317,327,FALSE
+CASMI_2012,26,12,FALSE
+CASMI_2016,622,495,TRUE
+Chubu_Univ,2185,480,
 Eawag,11191,,
 Eawag_Additional_Specs,874,,
 Fukuyama_Univ,340,,
