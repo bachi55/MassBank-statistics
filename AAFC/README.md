@@ -14,5 +14,5 @@ grep -h RECORD_TITLE *.txt | cut -d';' -f 1 | sort -u | wc -l
 
 Output: 149
 
-If we want to distiguish also with respect to the ionization mode, we can modify the "cut" 
+If we want to distinguish also with respect to the ionization mode, we can modify the "cut" 
 command: ```cut -d';' -f1,6```
